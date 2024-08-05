@@ -24,6 +24,20 @@ return [
                 'package_assets_directory' => 'src/Resources/assets',
             ],
         ],
+
+        // This is my theme
+        'wttheme' => [
+            'name'        => 'wttheme',
+            'assets_path' => 'public/themes/shop/wtshop',
+            'views_path'  => 'resources/themes/wttheme/views',
+
+            'vite'        => [
+                'hot_file'                 => 'wtshop-wtshop-vite.hot',
+                'build_directory'          => 'themes/shop/wtshop/build',
+                'package_assets_directory' => 'src/Resources/assets',
+            ],
+        ],
+
     ],
 
     /*
